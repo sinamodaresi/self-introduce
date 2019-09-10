@@ -8,18 +8,27 @@
 <body>
     
     
-    <div class="all-items">
+    <div class="items">
     <div class="nav-items">
-    <div class="item1"><a href="index.html">Home</a></div>
-    <div class="item1"><a href="about.html">About</a></div>
- 
+    <div class="left-items">
+        <div class="left-item1">
+         <a href="sina.html">سینا مدرسی</a>
+    </div>
+    </div>
+
+        <div class="right-items">
+                <div class="right-item1"><a href="index.html">درباره ما</a></div>
+                <div class="right-item1"><a href="index.html">عضویت</a></div>
+                <div class="right-item1"> <a href="index.html">ورود</a></div>
+                <div class="right-item1"> <a href="about.html">نوبت دهی</a></div>
+                <div class="right-item1"> <a href="about.html">صفحه اصلی</a></div>
+</div>
+    </div>
+    </div>
     
 
-    </div>
+    
 
-
-    <div class="item2"><a href="sina.html">Sina  modaresi</a></div>
-    </div>
     
 
 
@@ -27,7 +36,7 @@
 
     <div class="all-body">
     <div class="post">September 6th ,2019</div>
-    <div class="post2"><h2>Reserve ticket for doctors here</h2>
+    <div class="post2"><h2>سامانه نوبت دهی پزشکان</h2>
         <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa omnis hic let speaking with other part of body languages begining visit the link below for creatnihil nulla nesciunt fuga voluptas sequi accusantium, consequuntur ipsum iure assumenda, laboriosam recusandae voluptate ut nisi blanditiis, asperiores esse?</p></div>
 
 <div class="container">
@@ -61,14 +70,140 @@
 
 
 
-    <div class="post2"><h2>Select your City here!</h2>
+    <div class="post2"><h2>فیلد های درخواستی را وراد نمایید</h2>
         <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa omnis hic nihil nulla nesciunt fuga voluptas sequi accusantium, consequuntur ipsum iure assumenda, laboriosam recusandae voluptate ut nisi blanditiis, asperiores esse?</p></div>
 
-        <table class="table2">
-                <td>
+
+
+
+
+
+
+
+
+
+        <table class="table2" style="text-align:center;">
+                <th>
         <div class=itemselector>
         <label>شهر</label>
-		<select name="شهر" id="city">
+		<select name="شهر" class="lable">
+            
+            
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+        </select>
+    </th>
+
+        <th>
+        <label name="تخصص">تخصص</label>
+        <select name=تخصص class="lable">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+    </th>
+         <th>
+            <label name="مرکز درمانی">مرکز درمانی</label>
+            <select name="مرکز درمانی" class="lable">
+                <option value="مرکز درمانی">مرکز درمانی</option>
+                <option value="مرکز پزشکی آموزشی بعثت">مرکز پزشکی آموزشی بعثت</option>
+                <option value="مرکز پزشکی در مانی توحید">مرکز پزشکی در مانی توحید</option>
+                
+        </select>
+    </th>
+            
+
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table class="table3">
+                <th>
+        <div class=itemselector>
+        <label name="شهر">شهر</label>
+		<select name="شهر" class="lable">
             
                 <option value="">لطفا شهر را انتخاب نمایید</option>
                 <option value="tehran">تهران</option>
@@ -80,11 +215,11 @@
                 <option value="ghom">کرمانشاه</option>
                 <option value="mazandaran">کرمان</option>
         </select>
-        </td>
+    </th>
 
-        <td>
+        <th>
         <label name="تخصص">تخصص</label>
-        <select name=تخصص id="expertise">
+        <select name=تخصص class="lable">
             <option value="عمومی">لطفا تخصص را انتخاب نمایید</option>
             <option value="متخصص جراحی زنان زایمان">متخصص جراحی زنان زایمان</option>
             <option value="متخصص قلب">متخصص قلب</option>
@@ -95,17 +230,17 @@
             <option value="متخصص داخلی">متخصص داخلی</option>
             <option value="متخصص عفونی">متخصص عفونی</option>
         </select>
-         </td>   
+    </th>   
 
-         <td>
+         <th>
             <label name="مرکز درمانی">مرکز درمانی</label>
-            <select name="مرکز درمانی" id="place">
+            <select name="مرکز درمانی" class="lable">
                 <option value="مرکز درمانی">مرکز درمانی</option>
                 <option value="مرکز پزشکی آموزشی بعثت">مرکز پزشکی آموزشی بعثت</option>
                 <option value="مرکز پزشکی در مانی توحید">مرکز پزشکی در مانی توحید</option>
                 
         </select>
-        </td>
+        </th>
             
 
 

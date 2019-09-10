@@ -1,3 +1,76 @@
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 145px;
+
+}
+ 
+.right-items{
+    display:flex;
+}
+.nav-items > .right-items > div{
+
+    margin-right: 20px;
+    font-size: 1.5em;
+    
+}
+/*اینجا برای ایجاد خط زیر متن*/
+.right-item1{
+    height: 33px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.right-item1:hover{
+    border-bottom:1px solid black;
+
+
+}
+/*اینجا برای تغییر رنگ متن*/
+.right-item1 a {
+    color: #8a8a8a;
+    text-decoration: none; 
+    transition:color 0.5s;
+}
+
+.right-item1 a:hover{
+    color: black;
+    
+}
+
+/* baraye ghesmate chap hamon karaye bala ro tekrar mikonim */
+
+.nav-items > .left-items > div{
+
+    margin-left: 130px;
+    font-size: 1.5em;
+}
+
+.left-item1{
+    height: 33px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.left-item1:hover{
+    border-bottom:1px solid black;
+
+
+}
+/*اینجا برای تغییر رنگ متن*/
+.left-item1 a {
+    color: #8a8a8a;
+    text-decoration: none; 
+    transition:color 0.5s;
+}
+
+.left-item1 a:hover{
+    color: black;
+    
+}
+
+/*az inja all body shoro mishe*/
+
+
 .post{
     color:seagreen;
     display: flex;  
@@ -8,7 +81,7 @@
 }
 .table1 tr td{ 
     border-top: 15px solid #f7f7f7;
-    overflow: scroll;
+    
 
 }
 td{
@@ -31,17 +104,6 @@ font-size: 22px;
 .container2 {
     margin-left: 340px;
     
-}
-.all-items{
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
-
-    
-    
-    
-
 }
 
  .item2{
@@ -66,59 +128,21 @@ font-size: 22px;
 }
 
 
-
-.nav-items a{
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-
-}
-.all-items a:hover{
-    border-bottom: 1px solid black ;
-
-}
-
-
-
-
-
-
-
- .all-items a{
-    font-size: 25px;
-    text-decoration: none;
-    transition: color 0.5s;
-}
 a:hover {
     color: black;
   }
 
-.nav-items{
-    display: flex;
-    padding: 55px;
-    padding-bottom: 0px;
-    padding-left:150px;
 
 
-}
-
-
-.nav-items > div{
-    margin-right:20px;
-}
 
 
 .all-body{
-    background: #e9e9e9;
-    position: absolute;
-    border: 20px solid gray;
-    border-radius: 5px;
-
+    background: #fcfcfc;
+    border: 20px solid #dbdada;
     height:4500px;
-    width: 1000px;
-    align-content: center;
-    margin-left: 150px;
-    overflow: scroll;
-    overflow: hidden;
+    width: 1090px;
+    margin:auto;
+    
     
 
 
@@ -134,31 +158,31 @@ body{
     background: white;
     background-image: url("images/12122.jpg");
     background-attachment: fixed;
-}
-
-.itemselector label{
-    padding: 0px;
-    margin-left: 0px;
-   
-    padding: 55px;
-
+    margin: 0px;
 }
 
 
-#city{
+
+.lable {
+    display: inline;
     width: 200px;
-}
-
-#expertize{
-    width: 200px;
-}
-#place{
-    width: 200px;
-}
-
-.table2 {
-padding: 20px;
-padding-bottom: 45px;
+    
+    border: 2px solid black;
+    margin: 10px;
+    padding-left: 10px;
     
 }
 
+.table2 {
+margin-left: auto;
+margin-right: auto;
+
+margin-bottom: auto;
+}
+.table3 {
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-bottom: 35px;
+
+    }
